@@ -7,7 +7,8 @@ import java.util.stream.IntStream;
 public class Fibonacci {
 
     public static void main(String[] args) {
-        stream(41);
+        int q = 10, w = 5;
+        System.out.println(q + ~w + 0b00000001);
     }
 
     private static int fib1(int n) {
